@@ -1,0 +1,22 @@
+<script>
+	var t = prompt('Enter no. of testcases');
+	while(t>0)
+	{
+		var L = prompt('Enter value of L');
+		var R = prompt('Enter value of R');
+		var x=0;
+		for(var i=L; i<=R; i++) 
+		{
+			x=x^i;
+		}
+		if(x%2==0)
+		{
+			document.write("Even<br>");
+		}
+		else
+		{
+			document.write("Odd<br>");
+		}
+		t--;
+	}
+</script>
